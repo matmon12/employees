@@ -1,7 +1,9 @@
 @mixin TextOverflow($lines) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: $lines;
 }
 
 @mixin Scroll(

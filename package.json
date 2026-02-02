@@ -1,6 +1,6 @@
 {
-  "name": "starter-pack",
-  "version": "0.0.0",
+  "name": "employees",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -18,11 +18,18 @@
   "dependencies": {
     "@vueuse/core": "^13.6.0",
     "@vueuse/head": "^2.0.0",
+    "axios": "^1.13.4",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@iconify-json/fluent": "^1.2.37",
+    "@iconify-json/gravity-ui": "^1.2.10",
+    "@iconify-json/ic": "^1.2.4",
+    "@iconify-json/material-symbols-light": "^1.2.52",
+    "@iconify-json/svg-spinners": "^1.2.4",
+    "@iconify-json/tabler": "^1.2.26",
     "@types/node": "^22.16.5",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/eslint-config-prettier": "^10.2.0",

@@ -1,16 +1,24 @@
-.container{
+.container {
   max-width: 1300px;
   padding: 0 10px;
   margin: 0 auto;
 }
 
-body{
-  background-color: var(--black);
+body {
+  background-color: var(--neutral-950);
   color: var(--white);
-  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: var(--white);
+  color: var(--violet-800);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
